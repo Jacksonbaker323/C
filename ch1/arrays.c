@@ -26,5 +26,5 @@ int main() {
   for (i = 0; i < 10; ++i) {
     printf(" %d", ndigit[i]);
   }
-  printf(", whitespace = %d, other = %d\n", nwhite, nother);
+  printf(", whitespace = %d, other = %d\n", nwhite, nother); 
 }
