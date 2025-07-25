@@ -1,8 +1,8 @@
-#include "stdio.h"
+#include <stdio.h>
 
-int power(int base, int n);
+int power(int, int);
 
-int main() {
+int main(void) {
   int i;
 
   for (i = 0; i < 10; ++i) {
@@ -11,13 +11,13 @@ int main() {
   return 0;
 }
 
-int power(int base, int n){
-  int p;
+int power(int base, int n) {
+  int i, p;
 
   p = 1;
-  for (p = 1; n > 0; --n) {
+
+  for (i = 1; i <=n; ++i) {
     p = p * base;
   }
   return p;
 }
-
